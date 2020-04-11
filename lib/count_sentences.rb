@@ -27,8 +27,8 @@ class String
   end
 
   def count_sentences
-    self.split(/[.!?]/).collect do |str|
-      str.count
+    self.split(/[.!?]/).count
+      
     end
   end
 end
