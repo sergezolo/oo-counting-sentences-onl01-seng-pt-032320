@@ -30,4 +30,5 @@ class String
     if self.end_with?("." || "!" || "?").split
       self.count_sentences
     end
+  end
 end
